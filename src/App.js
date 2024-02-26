@@ -7,10 +7,8 @@ import Feed from './Feed'
 function App() {
   return (
     <div className="app">
-      <header className="App-header">
         
         <Header />
-        { /* App Body */ }
         <div className='app__body'>
           <Sidebar />
           <Feed/>
@@ -18,8 +16,6 @@ function App() {
 
         </div>
         
-
-      </header>
     </div>
   );
 }
